@@ -7,7 +7,7 @@ task("setGreeting", "Set Greeting")
 
         const [signer] = await hre.ethers.getSigners();
 
-        const tx = await greeter.connect(signer).setGreeting("BOBO");
+        const tx = await greeter.connect(signer).setGreeting("WOWO");
         await tx.wait(1);
 
         console.log("New greeting: " + await greeter.greet());

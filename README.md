@@ -18,6 +18,7 @@ To install hardhat-tenderly and others
 ```bash
 npm install --save-dev @tenderly/hardhat-tenderly
 npm install dotenv
+npm install --save-dev @nomiclabs/hardhat-etherscan
 ```
 
 
