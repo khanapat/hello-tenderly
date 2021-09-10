@@ -5,6 +5,7 @@ require("dotenv").config({ path: ".env" });
 
 require("./tasks/accounts");
 require("./tasks/setGreeting");
+require("./tasks/setNumber");
 
 const RINKEBY_RPC_URL = process.env.RINKEBY_RPC_URL || "https://eth-rinkeby.alchemyapi.io/v2/your-api-key";
 const MUMBAI_RPC_URL = process.env.MUMBAI_RPC_URL || "https://matic-mumbai.chainstacklabs.com";
